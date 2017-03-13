@@ -1,0 +1,33 @@
+body,article,aside,footer,nav {
+  border: 1px black solid
+}
+
+body {
+  background-color: grey;
+}
+
+@media screen and (max-width: 960px) {
+  body { background-color: blue; }
+  img { width: 900px; }
+}
+
+@media screen and (max-width: 768px) {
+  body { background-color: yellow; }
+  img { width: 700px; }
+}
+
+@media screen and (max-width: 550px) {
+  body { background-color: green; }
+  img { width: 500px; }
+}
+
+@media screen and (max-width: 320px) {
+  body { background-color: red; }
+  img { width: 300px; }
+}
+
+@media print {
+  body {
+    width: 100%;
+  }
+}
