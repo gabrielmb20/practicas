@@ -1,0 +1,19 @@
+body {
+	border: solid;
+	width: 450px;
+    height: 450px;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    border: 25px solid black;
+    padding: 25px;
+    background-color: #B8860B;    
+    top: 25px;
+    bottom: 25px;
+    right: 25px;
+    left: 25;
+}
+
